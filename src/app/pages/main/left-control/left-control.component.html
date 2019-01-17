@@ -1,0 +1,9 @@
+<div class="header-wrapper">
+  <img src="./assets/img/default-avatar.png">
+  <span class="username-text" *ngIf="!isCollapsed">
+    {{ username }}
+  </span>
+  <div (click)="goSetting()" class="floating-btn header-btn" *ngIf="!isCollapsed">
+    <i class="anticon anticon-setting"></i>
+  </div>
+</div>
