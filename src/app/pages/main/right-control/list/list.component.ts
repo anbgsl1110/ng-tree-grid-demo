@@ -18,12 +18,16 @@ export class ListComponent implements OnInit {
   searchNameList = [];
   searchAddressList = [];
   filterNameList = [
-    { text: 'Joe', value: 'Joe' },
-    { text: 'Jim', value: 'Jim' }
-  ];
-  filterAddressList = [
-    { text: 'London', value: 'London' },
-    { text: 'Sidney', value: 'Sidney' }
+    { text: 'test0', value: 'test0' },
+    { text: 'test1', value: 'test1' },
+    { text: 'test2', value: 'test2' },
+    { text: 'test3', value: 'test3' },
+    { text: 'test4', value: 'test4' },
+    { text: 'test5', value: 'test5' },
+    { text: 'test6', value: 'test6' },
+    { text: 'test7', value: 'test7' },
+    { text: 'test8', value: 'test8' },
+    { text: 'test9', value: 'test9' },
   ];
   sortMap = {
     name   : null,
@@ -59,12 +63,16 @@ export class ListComponent implements OnInit {
 
   resetFilters(): void {
     this.filterNameList = [
-      { text: 'Joe', value: 'Joe' },
-      { text: 'Jim', value: 'Jim' }
-    ];
-    this.filterAddressList = [
-      { text: 'London', value: 'London' },
-      { text: 'Sidney', value: 'Sidney' }
+      { text: 'test0', value: 'test0' },
+      { text: 'test1', value: 'test1' },
+      { text: 'test2', value: 'test2' },
+      { text: 'test3', value: 'test3' },
+      { text: 'test4', value: 'test4' },
+      { text: 'test5', value: 'test5' },
+      { text: 'test6', value: 'test6' },
+      { text: 'test7', value: 'test7' },
+      { text: 'test8', value: 'test8' },
+      { text: 'test9', value: 'test9' },
     ];
     this.searchNameList = [];
     this.searchAddressList = [];
